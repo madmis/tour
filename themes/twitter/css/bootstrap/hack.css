@@ -1,0 +1,14 @@
+.filters td input {
+        width: 100%;
+        padding: 0;
+}
+
+div.controls img {
+	vertical-align: middle;
+	/*margin-bottom: 8px;*/
+}
+
+table.grid-view tr.selected td {
+    background: none repeat scroll 0 0 #0088cc !important;
+	color: #fff;
+}

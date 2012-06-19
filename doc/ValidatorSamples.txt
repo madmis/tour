@@ -1,0 +1,9 @@
+array('country_currency', 'exist',
+        'on'=>'create, update',
+        'attributeName'=>'currency_code',
+        'className'=>'Currencies',
+        'skipOnError'=>true,
+        'message'=>'Currency must be already defined!'
+),
+array('latitude', 'compare','operator'=>'<=','compareValue'=>90, 'message'=>'maximum is 90 which is North Pole'  ),
+array('latitude', 'compare','operator'=>'>=','compareValue'=>0  ),

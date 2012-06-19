@@ -1,0 +1,19 @@
+/**
+* Generator style.
+*/
+
+#generator table.items { margin:0; }
+#generator table.items th,
+#generator table.items td { padding:3px 10px; }
+#generator table.items td { cursor:pointer; }
+#generator table.items .application-heading-row,
+#generator table.items .module-heading-row { background-color:#aaa; }
+#generator table.items .module-row { background-color:#ddd; }
+#generator table.items .controller-row { background-color:#a7ddf9; }
+#generator table.items .action-row .name-column { padding-left:20px; }
+#generator table.items .checkbox-column { width:20px; text-align:center; }
+#generator table.items .checkbox-column input { margin:2px 0; }
+#generator table.items .path-column { color:#000; font-style:italic; }
+#generator table.items .exists * { color:#808080; }
+#generator table.items .odd td { background:#dff0d8; }/*d9edf7*/
+#generator table.items .even td { background:transparent; }
