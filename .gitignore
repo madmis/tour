@@ -1,3 +1,0 @@
-﻿$ cat .gitignore
-assets/*
-protected/runtime/*
